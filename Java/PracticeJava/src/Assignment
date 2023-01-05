@@ -1,0 +1,32 @@
+Question-1
+
+Write a Java method that takes in a string as input and uses a stack data structure to determine if the string is a palindrome
+(a word, phrase, or number that is spelled the same forwards and backwards, e.g. "racecar" or "level"). The method should return
+a boolean value indicating whether the input string is a palindrome.
+
+Here is the method signature:
+public static boolean isPalindrome(String input)
+
+isPalindrome("racecar") -> true
+isPalindrome("hello") -> false
+isPalindrome("level") -> true
+isPalindrome("a") -> true
+isPalindrome("") -> true
+
+
+Question-2
+
+   Implement MinStack and MaxStack classes to solve that two problems in java.
+
+
+Question-3
+
+Write a generic Stack class. Write all unit tests for that class.
+
+To Do:
+
+    Queue
+    Circular Queue
+    FIFO
+    PriorityQueue
+    Comparator<>
