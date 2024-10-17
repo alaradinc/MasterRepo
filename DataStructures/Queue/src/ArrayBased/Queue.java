@@ -1,11 +1,13 @@
+package ArrayBased;
+
 public class Queue {
     int[] queue; //these variables are by default protected, we could write protected in front of int but it would be the same thing
     int front;
     int rear;
-    int currentSize;
+    int currentSize; //mevcut buyukluk
     final int capacity;
 
-    Queue(int capacity) {
+    Queue(int capacity) { //queue constructor
         this.capacity = capacity;
         this.currentSize = 0;
         this.rear = -1;
@@ -23,15 +25,14 @@ public class Queue {
         */
 
         if (isFull()) { //getting in line (adding)
-            throw new QueueOverFlowException("Queue is full!"); //we must write this exception
+            throw new QueueOverFlowException("ArrayBased.Queue is full!"); //we must write this exception
         }
-        if (currentSize == 0) {
+        if (currentSize == 0) { //if first in line
             front = 0; // front stays the same index number because the front's position logically never changes.
         }
         rear++; //we change the rear index because as more people get in and out of line, the back of the line's place move
         queue[rear] = data; // add the data into the end of the line whose place is represented by the rear variable holding the index
         currentSize++;
-
     }
 
     public int dequeue() throws QueueUnderFlowException { // deletion function
@@ -47,7 +48,7 @@ public class Queue {
 
 
         if (isEmpty()) {
-            throw new QueueUnderFlowException("Queue is empty!");
+            throw new QueueUnderFlowException("ArrayBased.Queue is empty!");
         }
         int oldData = queue[front]; //hold the current front value, otherwise it will be lost when we delete it, however because it no longer has an array index value associated with it,
         //we are moving up the front value, because they are leaving the line
@@ -66,7 +67,7 @@ public class Queue {
 
     public int peek() throws QueueUnderFlowException {
         if (isEmpty()) {
-            throw new QueueUnderFlowException("Queue is empty!");
+            throw new QueueUnderFlowException("ArrayBased.Queue is empty!");
         }
         return queue[front];
     }

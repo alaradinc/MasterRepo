@@ -7,7 +7,7 @@ public class LinkedList<T> {
         this.head = null;
     }
 
-    void append(T data) {
+    public void append(T data) {
         if (head == null) {
             this.head = new Node<>(data); //this replaces the null value of the head with the node that contains data which user inputted
             return; //very critical that you understand this: we do not assign a number into the original 'null' node. we simply reassign another created node 'data' to be the head
@@ -20,7 +20,7 @@ public class LinkedList<T> {
         current.next = new Node<>(data);
     }
 
-    void prepend(T data) {
+    public void prepend(T data) {
         if (head == null) { //this.head tells the system that we are accessing the head variable from the class scope
             this.head = new Node<>(data); //this.head could be written as 'head' only if there are no other local head variables
             return; //this completes the if statement and 'prepend' function without the need for an 'else' statement
@@ -39,18 +39,19 @@ public class LinkedList<T> {
         // the java garbage collector deletes variables without a reference from the memory (aka RAM)
 
         if (input == head.data) { // we are accessing the value inside of head and compare it with our input to see if they are the same
-
             head = head.next;
             return; //closing the function so we don't have to write else
         }
 
         Node<T> current = head; //creating a new reference of the type Intro.Node and assigning it to head (so we can refer to head as 'current')
         // we create the current variable so we can move across the linked list without changing the head value (otherwise we jeopardize deleting the entire list)
-        while (input != current.next.data) {
-            current = current.next; //with this function we are moving 'current' to the right
+        while(current.next != null){
+            if(current.next.data == input){
+                current.next = current.next.next;
+                return;
+            }
+            current = current.next;
         }
-
-        current.next = current.next.next;
     }
 
     public boolean contains(T input) {

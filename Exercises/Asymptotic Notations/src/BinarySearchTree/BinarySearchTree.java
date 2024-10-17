@@ -1,4 +1,4 @@
-package Ayberk.BinarySearchTree;
+package BinarySearchTree;
 
 public class BinarySearchTree {
     Node root;
@@ -7,7 +7,7 @@ public class BinarySearchTree {
         this.root = null;
     }
 
-    void insert(int data) {
+    public void insert(int data) {
         this.root = insert(root, data);
     }
 

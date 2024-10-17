@@ -1,4 +1,4 @@
-package Ayberk.BinarySearchTree;
+package BinarySearchTree;
 
 public class Node {
     int data;

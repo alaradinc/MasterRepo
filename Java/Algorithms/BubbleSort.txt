@@ -1,0 +1,5 @@
+Total elapsed time to sort 10 elements using bubble sort: 1ms
+Total elapsed time to sort 100 elements using bubble sort: 0ms
+Total elapsed time to sort 1000 elements using bubble sort: 9ms
+Total elapsed time to sort 10000 elements using bubble sort: 222ms
+Total elapsed time to sort 100000 elements using bubble sort: 15103ms

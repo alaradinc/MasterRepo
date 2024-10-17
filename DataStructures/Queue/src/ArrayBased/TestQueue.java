@@ -1,3 +1,5 @@
+package ArrayBased;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -38,7 +40,7 @@ public class TestQueue {
             queue.enqueue(1);
             fail();
         } catch (QueueOverFlowException e) {
-            assertEquals("Queue is full!", e.getMessage());
+            assertEquals("ArrayBased.Queue is full!", e.getMessage());
         }
     }
 
@@ -48,7 +50,7 @@ public class TestQueue {
             queue.dequeue();
             fail();
         } catch (QueueUnderFlowException e) {
-            assertEquals("Queue is empty!", e.getMessage());
+            assertEquals("ArrayBased.Queue is empty!", e.getMessage());
         }
         try {
             queue.enqueue(3);
@@ -69,7 +71,7 @@ public class TestQueue {
             queue.peek();
             fail();
         } catch (QueueUnderFlowException e) {
-            assertEquals("Queue is empty!",e.getMessage());
+            assertEquals("ArrayBased.Queue is empty!",e.getMessage());
         }
 
         try {
@@ -88,7 +90,7 @@ public class TestQueue {
             queue.peek();
             fail();
         } catch (QueueUnderFlowException e) {
-            assertEquals("Queue is empty!",e.getMessage());
+            assertEquals("ArrayBased.Queue is empty!",e.getMessage());
         }
     }
 

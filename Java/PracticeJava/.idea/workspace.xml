@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94d1e76c-f96a-42b3-a9a3-c10a485e7320" name="Changes" comment="Update">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracticeJava.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeJava/ArrayBasedStack/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeJava/ArrayBasedStack/StackOverflowException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeJava/ArrayBasedStack/StackUnderflowException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeJava/ArrayBasedStack/TestStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeJava/NodeBasedStack/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeJava/NodeBasedStack/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeJava/NodeBasedStack/StackUnderflowException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeJava/NodeBasedStack/TestStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayBasedStack/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayBasedStack/StackOverflowException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayBasedStack/StackUnderflowException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayBasedStack/TestStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercises/MaxStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercises/MinStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercises/Palindrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NodeBasedStack/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NodeBasedStack/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NodeBasedStack/StackUnderflowException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NodeBasedStack/TestStack.java" beforeDir="false" />
+    </list>
+    <list id="4f02e49c-8b24-4283-9447-b7bc4adf0781" name="Changes by Ayberk" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Exercises/Node.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ISNbf429ZQuvSiGAQMCqI2FqMk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="NodeBasedStack" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestStack">
+    <configuration name="TestStack (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PracticeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NodeBasedStack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="NodeBasedStack" />
+      <option name="MAIN_CLASS_NAME" value="NodeBasedStack.TestStack" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PracticeJava" />
+      <option name="PACKAGE_NAME" value="ArrayBasedStack" />
+      <option name="MAIN_CLASS_NAME" value="ArrayBasedStack.TestStack" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStack.testIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PracticeJava" />
+      <option name="PACKAGE_NAME" value="ArrayBasedStack" />
+      <option name="MAIN_CLASS_NAME" value="ArrayBasedStack.TestStack" />
+      <option name="METHOD_NAME" value="testIsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStack.testIsFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PracticeJava" />
+      <option name="PACKAGE_NAME" value="ArrayBasedStack" />
+      <option name="MAIN_CLASS_NAME" value="ArrayBasedStack.TestStack" />
+      <option name="METHOD_NAME" value="testIsFull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStack.testSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PracticeJava" />
+      <option name="PACKAGE_NAME" value="ArrayBasedStack" />
+      <option name="MAIN_CLASS_NAME" value="ArrayBasedStack.TestStack" />
+      <option name="METHOD_NAME" value="testSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestStack (1)" />
+        <item itemvalue="JUnit.TestStack" />
+        <item itemvalue="JUnit.TestStack.testIsFull" />
+        <item itemvalue="JUnit.TestStack.testIsEmpty" />
+        <item itemvalue="JUnit.TestStack.testSize" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94d1e76c-f96a-42b3-a9a3-c10a485e7320" name="Changes" comment="" />
+      <created>1670171097774</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670171097774</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+  </component>
+</project>
