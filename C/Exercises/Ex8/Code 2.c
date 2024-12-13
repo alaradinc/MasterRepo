@@ -20,7 +20,7 @@ typedef struct
 }Employee;
 
 void clearBuffer(){
-    while (getchar() != '\n'); // as long as the input is not enter, continue with the program, otherwise use getchar to clear the enter
+    while (getchar() != '\n'); // as long as the input is not enter, continue with the program, otherwise use getchar to clear the enter asad
 }
 
 void readAddress(Address *address){
