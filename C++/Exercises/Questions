@@ -1,0 +1,23 @@
+/*
+    6. Write a function that takes a string as input and converts all lowercase characters to uppercase and all uppercase characters to lowercase.
+
+    7. Write a function that takes a string as input and counts the frequency of each character. Return the result as a map.
+
+    8. Write a function that takes a string as input and checks if it is an anagram of another given string.
+
+    9. Write a function that takes a string as input and finds the longest word in the string.
+
+    10. Write a function that takes a string as input and finds the first non-repeating character in the string. If no such character exists, return a suitable message.
+
+    11. Write a function that takes a string as input and compresses it using the count of repeated characters (e.g., "aaabbc" -> "a3b2c1").
+
+    12. Write a function that takes a string as input and checks if it is a valid email address. Assume a basic email structure (e.g., contains "@" and ends with a valid domain like ".com").
+
+    13. Write a function that takes a string as input and finds all substrings of the string.
+
+    14. Write a function that takes a string as input and removes duplicate characters while preserving the order of characters.
+
+    15. Write a function that takes a string as input and finds the most frequently occurring word.
+
+    16. Write a function that takes a string as input and shifts each character by a given number of positions in the ASCII table (e.g., with a shift of 1, "abc" -> "bcd").
+*/
