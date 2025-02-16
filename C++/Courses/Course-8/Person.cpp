@@ -6,7 +6,7 @@ Person::Person() {
 }
 
 Person::Person(string name, int age) { //The sytanx means: 'From the Person class, we will now define the constructo we identified within the class file 'header'
-    this->name = name; //we use pointers because we want to make permenant change (vs using a '.' would make temporary change that would get deleted after runtime)
+    this->name = name; // using 'this' here prevents confusion by telling the compiler we are assigning the inputted 'name' to the instance attreibute: name  
     this->age = age;
 }
 

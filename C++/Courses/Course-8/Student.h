@@ -9,6 +9,7 @@ class Student : public Person // this portion of the code is inheritence
         string major;
     
     public:
+        Student();
         Student(string name, int age, int rollNo, string major);
         void display();
         void setRollNo(int rollNo);
