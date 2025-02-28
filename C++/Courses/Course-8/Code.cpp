@@ -129,4 +129,6 @@ int main(){
         3. Run the file
             ./output
     */
+
+    delete s5;
 }
