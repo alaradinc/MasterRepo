@@ -29,4 +29,3 @@ void Cat::displayInfo() const {
 }
 
 Cat::~Cat(){};
-
